@@ -1,10 +1,3 @@
-# 保存为 create_project.ps1
-# 右键点击 PowerShell 脚本文件 -> 使用 PowerShell 运行
-
-# 创建项目根目录
-New-Item -ItemType Directory -Path "AgentDSDemo" -Force
-Set-Location "AgentDSDemo"
-
 # 创建基础文件
 New-Item -ItemType File -Path "README.md" -Force
 New-Item -ItemType File -Path ".env.example" -Force
@@ -111,4 +104,4 @@ New-Item -ItemType Directory -Path "web\static" -Force
 New-Item -ItemType Directory -Path "web\templates" -Force
 New-Item -ItemType File -Path "web\app.py" -Force
 
-Write-Host "项目结构创建完成！" -ForegroundColor Green
+Write-Host "Project structure created successfully!" -ForegroundColor Green
