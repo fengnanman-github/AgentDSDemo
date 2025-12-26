@@ -1,0 +1,17 @@
+# template-config.yml
+# 在仓库根目录创建
+template:
+    name: "AgentDSDemo Template"
+    description: "Python AI Agent System Starter"
+    include_all_branches: false
+    tags:
+        - python
+        - ai
+        - agent
+        - template
+    variables:
+        - name: project_name
+          description: "Name of the new project"
+        - name: python_version
+          description: "Python version"
+          default: "3.9"
